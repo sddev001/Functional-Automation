@@ -38,7 +38,7 @@
 
         </dependencies>
     </dependencyManagement>
-<!--
+
     <profiles>
 
         <profile>
@@ -48,6 +48,7 @@
                 <module>Amazon</module>
             </modules>
         </profile>
+        <!--
         <profile>
             <id>cnn-app</id>
             <modules>
@@ -75,11 +76,13 @@
                 <module>Common</module>
                 <module>ChaseBank</module>
             </modules>
+
         </profile>
+        -->
     </profiles>
 
 
--->
+
 
 
 </project>
