@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 public class Base {
 
     public WebDriver driver = null;
-/*
+
     @Parameters ({"url"})
     @BeforeMethod
     public void setUp(String url){
@@ -38,7 +38,7 @@ public class Base {
         driver.manage().window().maximize();
 
     }
-*/
+/*
     @Parameters ({"useSauceLabs","userName", "key","os","browserName","browserVersion","url"})
     @BeforeMethod
     public void setUp(@Optional("false")boolean useSauceLabs,@Optional("sddev001")String userName,
@@ -81,7 +81,7 @@ public class Base {
         driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
         driver.manage().window().maximize();
     }
-
+*/
 
     @AfterMethod
     public void cleanUp(){

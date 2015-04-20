@@ -2,13 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Amazon test on Web browser" >
 
-
+<!--
     <parameter name = "useSauceLabs" value = "true"/>
     <parameter name = "userName" value = "sddev001"/>
     <parameter name = "key" value = "fedce925-0914-4f51-9d58-296388ad528a"/>
     <parameter name = "os" value = "WIN8"/>
     <parameter name = "browserName" value = "chrome"/>
     <parameter name = "browserVersion" value = "41"/>
+    -->
     <parameter name = "url" value = "http://www.amazon.com"/>
 
 
